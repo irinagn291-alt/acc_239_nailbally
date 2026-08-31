@@ -1,0 +1,8 @@
+Version 1.0 is the first release of Nailbally.
+
+• Arena prize wheel with Flick, Join, and Fair-share nail
+• Seat a name or dare on the felt; load a pack; Save room as a pack
+• Award last open when one name remains, then the nails lift for the next round
+• Night shows the order of lands under a YYYYMMDD key
+• Booth: packs, Landing climax haptics, Contact, Re-run onboarding, and Reset all data
+• Onboarding: Seat the room; Flick, then nail; Fair-share nail; Read the night

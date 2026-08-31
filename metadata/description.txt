@@ -1,0 +1,13 @@
+Nailbally is a prize wheel for hosts who seat names or dares on the felt and flick until every live name is nailed. The Arena is the wheel. A landed slice takes a fair-share nail and leaves the draw until every other live name has landed.
+
+• Seat the room by typing a name or dare, or load a pack onto the felt
+• Join seats a late joiner who sits open and stays in the draw
+• Flick the prize wheel so it coasts clockwise and lands on an open slice
+• Fair-share nail keeps a nailed name on the pie but out of the draw until the rest of the room has landed
+• Award last open without a flick when one name remains; then the nails lift together and the next round starts
+• Lift a name mid-round to lift only that nail
+• Night lists the order of lands under a YYYYMMDD key, not a bag of isolated winners
+• Booth stores packs and the Landing climax haptic setting on this device, plus Contact, Re-run onboarding, and Reset all data
+• Save room as a pack and load it later from Booth
+
+Names, packs, and Night order stay on the device. No account is required.

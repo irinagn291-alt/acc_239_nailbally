@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C57E2756D00DC20728AFEE /* PieCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43612D6A1E0DB4A9D9233101 /* PieCanvasView.swift */; };
+		1B747048D871FA94D7AB9FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AAC9E95C825AED351F5BE0 /* Assets.xcassets */; };
+		20B9245657EFD75BBEF4D648 /* Felt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71674AFAF2A7A17F29103681 /* Felt.swift */; };
+		2141861CD4D66933B0341478 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC15092DC5C1CCF348607C1 /* APIConfig.swift */; };
+		3290D198F95BE6AB222E2EA7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3F90EAAB247139E5A29BA82C /* Alamofire */; };
+		3A706B6672E46752DC14E49A /* MidwayHop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF459295D48B6F5BB1EDEA9 /* MidwayHop.swift */; };
+		3AA65BC085B2AD4B1806C688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD911588BB86FD5CF47510B3 /* AppDelegate.swift */; };
+		3DA2A5E9CE3A7D5529C788E4 /* Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906B35A38BAFF6CE98D892EE /* Slice.swift */; };
+		42E55027DC6817E83D7CEB76 /* BoothPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E337BE98F82AB850D15623F8 /* BoothPack.swift */; };
+		4ADCDDC90DCC33A1FEC59D23 /* FeltVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE02EEF792C089A22F631B /* FeltVault.swift */; };
+		4B0896C160620277C039A76A /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90766C9685AF7C484AB0F60B /* FamilyInvariantTests.swift */; };
+		4DB5AD82C08AF0DD97081F6A /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9829D3AD0F3703679F9A2E33 /* ArenaView.swift */; };
+		5885BD1A6DE3080881D94543 /* Night.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B07748EAC3B940459F53E2 /* Night.swift */; };
+		6C80CD8812A5369774688C58 /* NailballyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9578937C401C0CC1A89F5DD4 /* NailballyApp.swift */; };
+		7325D131C458D1A5B4635FB0 /* FeltStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1395FBD77EB6FD7F9995DE /* FeltStore.swift */; };
+		740417EE542ACBBDB6A9F15D /* PieMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE2E74D3132B13A44707369 /* PieMask.swift */; };
+		79A1F88F7497D5BDFC45070B /* Land.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC9037C5E275957DE72B41 /* Land.swift */; };
+		7AAF6D74F787CBFD45BEDE45 /* NailballyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06615895D4E22B6F19D62916 /* NailballyTests.swift */; };
+		819B7DD597CAC0277957148E /* TentInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9429875B7A9F97AD57EBF15 /* TentInk.swift */; };
+		8CE9F88E1BAD3A3CAA317E31 /* PieFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9D64DC1F7AA86CE94F2C9 /* PieFace.swift */; };
+		94926D1AA0EC227FB01FA732 /* ScreenCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C357CABE10B8DEDD17574C /* ScreenCatalog.swift */; };
+		9516CC40D2BA762EE2E689F0 /* NightKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368424A0002B2A721CB3264D /* NightKey.swift */; };
+		9ACC72E0882ED2D79C5AADBC /* TentStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0225B77BF88FF824F9106BE /* TentStage.swift */; };
+		9F9AFC147B06371EEC0B3EB0 /* PieCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0737235344613D6B72E28 /* PieCanvas.swift */; };
+		A3307BAA38FE95C967A9000C /* FeltDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2450CF62AE95735B80DF68 /* FeltDocument.swift */; };
+		A638721A2BCF040B1B8BAA31 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9460AF0B7AD9304BAB77B899 /* HistoryView.swift */; };
+		ABBC7005B6B2937B7A4C3298 /* FeltFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A3E757F77BE99E4F0E151D /* FeltFixture.swift */; };
+		AE610221D9E1A96294681780 /* FeltActTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFB4BD0C6009E8474839001 /* FeltActTests.swift */; };
+		B0DC7A233F04604B62BEB1C8 /* MidwayHopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A576A13FADFEFC8D589E120 /* MidwayHopTests.swift */; };
+		BE898331C98EF5B1F76F6EAE /* FeltVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268EEC68675170BA3E55F94 /* FeltVaultTests.swift */; };
+		C3F89D56DFAE3D016ED572AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB44DD5554ADB75E58480E /* SettingsView.swift */; };
+		C664FC38EFF997FDA2FAD7F2 /* PieMaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ED0205678C139F52E551D7 /* PieMaskTests.swift */; };
+		CB303CD18430EE663FF9CD45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D32FBF466DB7551B477F88 /* ContentView.swift */; };
+		D1D422FD43E9D557B10EE89E /* FeltSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED703831A7EFE4BF335C827 /* FeltSeed.swift */; };
+		DC466C40D9962800BAB12E11 /* SpinPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B595C69DC7DA3FB3FF452E /* SpinPlan.swift */; };
+		E14102FDE31E8CE3F32495D6 /* SpinPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07379875A589D26EA682622 /* SpinPlanTests.swift */; };
+		E1596977B2165B22FFC8E396 /* FeltMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED15B9D7BECC3B3B0964AC7 /* FeltMemory.swift */; };
+		E31EEEE12BF07CE834EA9801 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D73D827CD16159BB97D68B4 /* OnboardingView.swift */; };
+		EF6D003A1C89D4129E8C884B /* ScreenShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E096C12116118BB21F958B /* ScreenShotTests.swift */; };
+		F69BD882BCE141ADAB31F819 /* FairShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AF53771EA748F3834ADBA9 /* FairShareView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F8C825C4109A9276729722E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8983B0F6CC43A6348F9DEF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D269BC6FB504B27091B112;
+			remoteInfo = Nailbally;
+		};
+		7009B469AF981C676BA3F133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8983B0F6CC43A6348F9DEF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D269BC6FB504B27091B112;
+			remoteInfo = Nailbally;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06615895D4E22B6F19D62916 /* NailballyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailballyTests.swift; sourceTree = "<group>"; };
+		0ED703831A7EFE4BF335C827 /* FeltSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltSeed.swift; sourceTree = "<group>"; };
+		15AF53771EA748F3834ADBA9 /* FairShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairShareView.swift; sourceTree = "<group>"; };
+		16B07748EAC3B940459F53E2 /* Night.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Night.swift; sourceTree = "<group>"; };
+		16F9D64DC1F7AA86CE94F2C9 /* PieFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieFace.swift; sourceTree = "<group>"; };
+		25A3E757F77BE99E4F0E151D /* FeltFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltFixture.swift; sourceTree = "<group>"; };
+		30BB44DD5554ADB75E58480E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		33D32FBF466DB7551B477F88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		368424A0002B2A721CB3264D /* NightKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightKey.swift; sourceTree = "<group>"; };
+		3D73D827CD16159BB97D68B4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3EDC9037C5E275957DE72B41 /* Land.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Land.swift; sourceTree = "<group>"; };
+		3FA0737235344613D6B72E28 /* PieCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieCanvas.swift; sourceTree = "<group>"; };
+		43612D6A1E0DB4A9D9233101 /* PieCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieCanvasView.swift; sourceTree = "<group>"; };
+		439AA848041B69E51D08B058 /* Nailbally.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Nailbally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEE02EEF792C089A22F631B /* FeltVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltVault.swift; sourceTree = "<group>"; };
+		4EE2E74D3132B13A44707369 /* PieMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieMask.swift; sourceTree = "<group>"; };
+		62E096C12116118BB21F958B /* ScreenShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotTests.swift; sourceTree = "<group>"; };
+		6E76DEA11C8923719BEE75B2 /* NailballyShotTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NailballyShotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC15092DC5C1CCF348607C1 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		71674AFAF2A7A17F29103681 /* Felt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Felt.swift; sourceTree = "<group>"; };
+		74ED0205678C139F52E551D7 /* PieMaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieMaskTests.swift; sourceTree = "<group>"; };
+		7ED15B9D7BECC3B3B0964AC7 /* FeltMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltMemory.swift; sourceTree = "<group>"; };
+		906B35A38BAFF6CE98D892EE /* Slice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slice.swift; sourceTree = "<group>"; };
+		90766C9685AF7C484AB0F60B /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		9460AF0B7AD9304BAB77B899 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		94B595C69DC7DA3FB3FF452E /* SpinPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinPlan.swift; sourceTree = "<group>"; };
+		9578937C401C0CC1A89F5DD4 /* NailballyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailballyApp.swift; sourceTree = "<group>"; };
+		9829D3AD0F3703679F9A2E33 /* ArenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
+		9A576A13FADFEFC8D589E120 /* MidwayHopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidwayHopTests.swift; sourceTree = "<group>"; };
+		AD911588BB86FD5CF47510B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2AAC9E95C825AED351F5BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0225B77BF88FF824F9106BE /* TentStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentStage.swift; sourceTree = "<group>"; };
+		CC1395FBD77EB6FD7F9995DE /* FeltStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltStore.swift; sourceTree = "<group>"; };
+		CEF459295D48B6F5BB1EDEA9 /* MidwayHop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidwayHop.swift; sourceTree = "<group>"; };
+		D07379875A589D26EA682622 /* SpinPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinPlanTests.swift; sourceTree = "<group>"; };
+		D268EEC68675170BA3E55F94 /* FeltVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltVaultTests.swift; sourceTree = "<group>"; };
+		D3C357CABE10B8DEDD17574C /* ScreenCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCatalog.swift; sourceTree = "<group>"; };
+		DD2450CF62AE95735B80DF68 /* FeltDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltDocument.swift; sourceTree = "<group>"; };
+		E337BE98F82AB850D15623F8 /* BoothPack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoothPack.swift; sourceTree = "<group>"; };
+		EF64E06654D816A1EEC9A66F /* NailballyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NailballyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9429875B7A9F97AD57EBF15 /* TentInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TentInk.swift; sourceTree = "<group>"; };
+		FBFB4BD0C6009E8474839001 /* FeltActTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeltActTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E24FC1E182F5EC440CB1F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3290D198F95BE6AB222E2EA7 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5AE854FA52479F52B1A7F5 /* Nail */ = {
+			isa = PBXGroup;
+			children = (
+				15AF53771EA748F3834ADBA9 /* FairShareView.swift */,
+				3EDC9037C5E275957DE72B41 /* Land.swift */,
+				3FA0737235344613D6B72E28 /* PieCanvas.swift */,
+				43612D6A1E0DB4A9D9233101 /* PieCanvasView.swift */,
+				16F9D64DC1F7AA86CE94F2C9 /* PieFace.swift */,
+				4EE2E74D3132B13A44707369 /* PieMask.swift */,
+				94B595C69DC7DA3FB3FF452E /* SpinPlan.swift */,
+			);
+			path = Nail;
+			sourceTree = "<group>";
+		};
+		32057DE2870CFB2FBD9F4641 /* Slice */ = {
+			isa = PBXGroup;
+			children = (
+				E337BE98F82AB850D15623F8 /* BoothPack.swift */,
+				906B35A38BAFF6CE98D892EE /* Slice.swift */,
+			);
+			path = Slice;
+			sourceTree = "<group>";
+		};
+		37B42CC952FADA7485DF1280 /* NailballyShotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C357CABE10B8DEDD17574C /* ScreenCatalog.swift */,
+				62E096C12116118BB21F958B /* ScreenShotTests.swift */,
+			);
+			path = NailballyShotTests;
+			sourceTree = "<group>";
+		};
+		3E5ACE08B5D272B363A8CF12 /* Nailbally */ = {
+			isa = PBXGroup;
+			children = (
+				6FC15092DC5C1CCF348607C1 /* APIConfig.swift */,
+				AD911588BB86FD5CF47510B3 /* AppDelegate.swift */,
+				B2AAC9E95C825AED351F5BE0 /* Assets.xcassets */,
+				33D32FBF466DB7551B477F88 /* ContentView.swift */,
+				9578937C401C0CC1A89F5DD4 /* NailballyApp.swift */,
+				AFEFB1D019E29C3F31DEAF0E /* Felt */,
+				0B5AE854FA52479F52B1A7F5 /* Nail */,
+				D206921702FEA047BFECC763 /* Night */,
+				32057DE2870CFB2FBD9F4641 /* Slice */,
+			);
+			path = Nailbally;
+			sourceTree = "<group>";
+		};
+		6560C09D400DE3F9ED13C1F4 = {
+			isa = PBXGroup;
+			children = (
+				3E5ACE08B5D272B363A8CF12 /* Nailbally */,
+				37B42CC952FADA7485DF1280 /* NailballyShotTests */,
+				EFF1A17BAF77FDB90F0FDE58 /* NailballyTests */,
+				FBE2A922C12AFCC576432078 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEFB1D019E29C3F31DEAF0E /* Felt */ = {
+			isa = PBXGroup;
+			children = (
+				9829D3AD0F3703679F9A2E33 /* ArenaView.swift */,
+				71674AFAF2A7A17F29103681 /* Felt.swift */,
+				DD2450CF62AE95735B80DF68 /* FeltDocument.swift */,
+				25A3E757F77BE99E4F0E151D /* FeltFixture.swift */,
+				7ED15B9D7BECC3B3B0964AC7 /* FeltMemory.swift */,
+				0ED703831A7EFE4BF335C827 /* FeltSeed.swift */,
+				CC1395FBD77EB6FD7F9995DE /* FeltStore.swift */,
+				4CEE02EEF792C089A22F631B /* FeltVault.swift */,
+				CEF459295D48B6F5BB1EDEA9 /* MidwayHop.swift */,
+				3D73D827CD16159BB97D68B4 /* OnboardingView.swift */,
+				30BB44DD5554ADB75E58480E /* SettingsView.swift */,
+				F9429875B7A9F97AD57EBF15 /* TentInk.swift */,
+				C0225B77BF88FF824F9106BE /* TentStage.swift */,
+			);
+			path = Felt;
+			sourceTree = "<group>";
+		};
+		D206921702FEA047BFECC763 /* Night */ = {
+			isa = PBXGroup;
+			children = (
+				9460AF0B7AD9304BAB77B899 /* HistoryView.swift */,
+				16B07748EAC3B940459F53E2 /* Night.swift */,
+				368424A0002B2A721CB3264D /* NightKey.swift */,
+			);
+			path = Night;
+			sourceTree = "<group>";
+		};
+		EFF1A17BAF77FDB90F0FDE58 /* NailballyTests */ = {
+			isa = PBXGroup;
+			children = (
+				90766C9685AF7C484AB0F60B /* FamilyInvariantTests.swift */,
+				FBFB4BD0C6009E8474839001 /* FeltActTests.swift */,
+				D268EEC68675170BA3E55F94 /* FeltVaultTests.swift */,
+				9A576A13FADFEFC8D589E120 /* MidwayHopTests.swift */,
+				06615895D4E22B6F19D62916 /* NailballyTests.swift */,
+				74ED0205678C139F52E551D7 /* PieMaskTests.swift */,
+				D07379875A589D26EA682622 /* SpinPlanTests.swift */,
+			);
+			path = NailballyTests;
+			sourceTree = "<group>";
+		};
+		FBE2A922C12AFCC576432078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439AA848041B69E51D08B058 /* Nailbally.app */,
+				6E76DEA11C8923719BEE75B2 /* NailballyShotTests.xctest */,
+				EF64E06654D816A1EEC9A66F /* NailballyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D269BC6FB504B27091B112 /* Nailbally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896637A1BF513DBC6B77BDFF /* Build configuration list for PBXNativeTarget "Nailbally" */;
+			buildPhases = (
+				F4F83401D5044308F20DEA4A /* Sources */,
+				E582F35B4D5F38FF231D89B8 /* Resources */,
+				1E24FC1E182F5EC440CB1F61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nailbally;
+			packageProductDependencies = (
+				3F90EAAB247139E5A29BA82C /* Alamofire */,
+			);
+			productName = Nailbally;
+			productReference = 439AA848041B69E51D08B058 /* Nailbally.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B589D35151C89106DF2444 /* NailballyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEE6AA0FAC067BCF4324DAD /* Build configuration list for PBXNativeTarget "NailballyTests" */;
+			buildPhases = (
+				2A1D7E4924E1E03B0F9B8EA5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959965091A590DE296355772 /* PBXTargetDependency */,
+			);
+			name = NailballyTests;
+			packageProductDependencies = (
+			);
+			productName = NailballyTests;
+			productReference = EF64E06654D816A1EEC9A66F /* NailballyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEF6764891B04E9043EE975A /* NailballyShotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02A3A32FC2A695215171281 /* Build configuration list for PBXNativeTarget "NailballyShotTests" */;
+			buildPhases = (
+				B55C2B83542036690C20D334 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743C8DAA1476991D0087DF56 /* PBXTargetDependency */,
+			);
+			name = NailballyShotTests;
+			packageProductDependencies = (
+			);
+			productName = NailballyShotTests;
+			productReference = 6E76DEA11C8923719BEE75B2 /* NailballyShotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8983B0F6CC43A6348F9DEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					62D269BC6FB504B27091B112 = {
+						ProvisioningStyle = Automatic;
+					};
+					A9B589D35151C89106DF2444 = {
+						ProvisioningStyle = Automatic;
+					};
+					BEF6764891B04E9043EE975A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 371C143EF5D3478D1FA0E856 /* Build configuration list for PBXProject "Nailbally" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6560C09D400DE3F9ED13C1F4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				25BA11064BA0717A62FEDE9A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FBE2A922C12AFCC576432078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D269BC6FB504B27091B112 /* Nailbally */,
+				A9B589D35151C89106DF2444 /* NailballyTests */,
+				BEF6764891B04E9043EE975A /* NailballyShotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E582F35B4D5F38FF231D89B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B747048D871FA94D7AB9FDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A1D7E4924E1E03B0F9B8EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0896C160620277C039A76A /* FamilyInvariantTests.swift in Sources */,
+				AE610221D9E1A96294681780 /* FeltActTests.swift in Sources */,
+				BE898331C98EF5B1F76F6EAE /* FeltVaultTests.swift in Sources */,
+				B0DC7A233F04604B62BEB1C8 /* MidwayHopTests.swift in Sources */,
+				7AAF6D74F787CBFD45BEDE45 /* NailballyTests.swift in Sources */,
+				C664FC38EFF997FDA2FAD7F2 /* PieMaskTests.swift in Sources */,
+				E14102FDE31E8CE3F32495D6 /* SpinPlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55C2B83542036690C20D334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94926D1AA0EC227FB01FA732 /* ScreenCatalog.swift in Sources */,
+				EF6D003A1C89D4129E8C884B /* ScreenShotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F83401D5044308F20DEA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2141861CD4D66933B0341478 /* APIConfig.swift in Sources */,
+				3AA65BC085B2AD4B1806C688 /* AppDelegate.swift in Sources */,
+				4DB5AD82C08AF0DD97081F6A /* ArenaView.swift in Sources */,
+				42E55027DC6817E83D7CEB76 /* BoothPack.swift in Sources */,
+				CB303CD18430EE663FF9CD45 /* ContentView.swift in Sources */,
+				F69BD882BCE141ADAB31F819 /* FairShareView.swift in Sources */,
+				20B9245657EFD75BBEF4D648 /* Felt.swift in Sources */,
+				A3307BAA38FE95C967A9000C /* FeltDocument.swift in Sources */,
+				ABBC7005B6B2937B7A4C3298 /* FeltFixture.swift in Sources */,
+				E1596977B2165B22FFC8E396 /* FeltMemory.swift in Sources */,
+				D1D422FD43E9D557B10EE89E /* FeltSeed.swift in Sources */,
+				7325D131C458D1A5B4635FB0 /* FeltStore.swift in Sources */,
+				4ADCDDC90DCC33A1FEC59D23 /* FeltVault.swift in Sources */,
+				A638721A2BCF040B1B8BAA31 /* HistoryView.swift in Sources */,
+				79A1F88F7497D5BDFC45070B /* Land.swift in Sources */,
+				3A706B6672E46752DC14E49A /* MidwayHop.swift in Sources */,
+				6C80CD8812A5369774688C58 /* NailballyApp.swift in Sources */,
+				5885BD1A6DE3080881D94543 /* Night.swift in Sources */,
+				9516CC40D2BA762EE2E689F0 /* NightKey.swift in Sources */,
+				E31EEEE12BF07CE834EA9801 /* OnboardingView.swift in Sources */,
+				9F9AFC147B06371EEC0B3EB0 /* PieCanvas.swift in Sources */,
+				00C57E2756D00DC20728AFEE /* PieCanvasView.swift in Sources */,
+				8CE9F88E1BAD3A3CAA317E31 /* PieFace.swift in Sources */,
+				740417EE542ACBBDB6A9F15D /* PieMask.swift in Sources */,
+				C3F89D56DFAE3D016ED572AD /* SettingsView.swift in Sources */,
+				3DA2A5E9CE3A7D5529C788E4 /* Slice.swift in Sources */,
+				DC466C40D9962800BAB12E11 /* SpinPlan.swift in Sources */,
+				819B7DD597CAC0277957148E /* TentInk.swift in Sources */,
+				9ACC72E0882ED2D79C5AADBC /* TentStage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		743C8DAA1476991D0087DF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D269BC6FB504B27091B112 /* Nailbally */;
+			targetProxy = 7009B469AF981C676BA3F133 /* PBXContainerItemProxy */;
+		};
+		959965091A590DE296355772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D269BC6FB504B27091B112 /* Nailbally */;
+			targetProxy = 5F8C825C4109A9276729722E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AF031A8D95C9EBA03747F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailbally.felt.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nailbally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nailbally";
+			};
+			name = Release;
+		};
+		364DB2B819CE1083A2A40216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		5BC786F7B8E0F80A6BCC2AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailbally.felt.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nailbally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nailbally";
+			};
+			name = Release;
+		};
+		B55166F2E73FFC9AA6FCCE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailbally.felt.tests.shots;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nailbally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nailbally";
+			};
+			name = Debug;
+		};
+		D1FC1767376ABBDC1DFE147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nailbally;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = nbl_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailbally.felt;
+				PRODUCT_NAME = Nailbally;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28F0F9CE80E5C4A8BB924D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Nailbally;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = nbl_Splash;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailbally.felt;
+				PRODUCT_NAME = Nailbally;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF8D917A3ABAF1A3B171790C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		FF15BFED26BEDE12C5DBAA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nailbally.felt.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nailbally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nailbally";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371C143EF5D3478D1FA0E856 /* Build configuration list for PBXProject "Nailbally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364DB2B819CE1083A2A40216 /* Debug */,
+				EF8D917A3ABAF1A3B171790C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		896637A1BF513DBC6B77BDFF /* Build configuration list for PBXNativeTarget "Nailbally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FC1767376ABBDC1DFE147D /* Debug */,
+				D28F0F9CE80E5C4A8BB924D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EEE6AA0FAC067BCF4324DAD /* Build configuration list for PBXNativeTarget "NailballyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF15BFED26BEDE12C5DBAA3A /* Debug */,
+				1AF031A8D95C9EBA03747F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A02A3A32FC2A695215171281 /* Build configuration list for PBXNativeTarget "NailballyShotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55166F2E73FFC9AA6FCCE84 /* Debug */,
+				5BC786F7B8E0F80A6BCC2AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25BA11064BA0717A62FEDE9A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F90EAAB247139E5A29BA82C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25BA11064BA0717A62FEDE9A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F8983B0F6CC43A6348F9DEF6 /* Project object */;
+}

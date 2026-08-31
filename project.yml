@@ -1,0 +1,102 @@
+name: Nailbally
+packages:
+  Alamofire:
+    url: https://github.com/wrandecima-bit/Alamofire
+    revision: 7fdd403089757be2ce6991b287c7bef612c8bd04
+options:
+  bundleIdPrefix: com.nailbally
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.2"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Nailbally:
+    type: application
+    platform: iOS
+    sources:
+      - path: Nailbally
+    resources:
+      - path: PrivacyInfo.xcprivacy
+    dependencies:
+      - package: Alamofire
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nailbally.felt
+        PRODUCT_NAME: Nailbally
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_CFBundleDisplayName: Nailbally
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_UIColorName: background
+        INFOPLIST_KEY_UILaunchScreen_UIImageName: nbl_Splash
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        INFOPLIST_KEY_NSCameraUsageDescription: This app does not use the camera.
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.lifestyle
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS: NO
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: "1.0.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        CODE_SIGN_STYLE: Automatic
+  NailballyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: NailballyTests
+    dependencies:
+      - target: Nailbally
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nailbally.felt.tests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "6.2"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Nailbally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nailbally"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        CODE_SIGN_STYLE: Automatic
+  NailballyShotTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: NailballyShotTests
+    dependencies:
+      - target: Nailbally
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nailbally.felt.tests.shots
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        SWIFT_VERSION: "6.2"
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Nailbally.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nailbally"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        CODE_SIGN_STYLE: Automatic
+schemes:
+  Nailbally:
+    build:
+      targets:
+        Nailbally: all
+        NailballyTests: [test]
+    test:
+      targets:
+        - NailballyTests
+  NailballyShots:
+    build:
+      targets:
+        Nailbally: all
+        NailballyShotTests: [test]
+    test:
+      targets:
+        - NailballyShotTests

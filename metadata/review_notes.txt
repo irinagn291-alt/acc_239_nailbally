@@ -1,0 +1,13 @@
+The project sets NSCameraUsageDescription to "This app does not use the camera." That prompt never appears, because the app does not access the camera or any other sensitive permission. No other usage-description keys are present.
+
+There is no login, no in-app purchase, no user-generated content shared with other people, no account deletion flow, and no App Tracking Transparency prompt.
+
+Nailbally is a lifestyle prize wheel for hosts who seat names or dares on the felt and flick for a room. Fair-share nail is the home rule: a landed slice stays on the pie but leaves the draw until every other live name has landed. Night is the order of those lands.
+
+No credentials or demo account are needed. From a cold launch the app opens the Arena after a short launch wait, with names already seated on the felt. Tap Flick to coast the prize wheel clockwise onto an open slice, or Award last open when one name remains. Tap the Open, Nailed, Fair-share row to open the Fair-share nail sheet. Tap Join, type a Name or dare, then Seat on the felt. Tap a seated name and choose Lift name to lift only that nail. Tap Night to read the night order. Tap Booth to load a pack, Save room as a pack, toggle Landing climax, open Contact, Re-run onboarding, or Reset all data. On iPhone, Night and Booth are sheets over the felt. On iPad they occupy the detail column. Re-run onboarding walks through Seat the room, Flick, then nail, Fair-share nail, and Read the night.
+
+At launch the app calls Alamofire NetworkService.performRegistration at https://nailbally-felt.pro/api/v1/users/register. If that call or Alamofire.DataCache supplies a content URL, Alamofire.WebContentView loads it. Contact in Booth opens https://nailbally-felt.pro/contact-us in the system browser. Names, packs, Night order, and the haptic setting stay on the device. There is no remote pack catalog.
+
+Behaviour does not differ by region. Interface copy is English. Night titles use the device locale date format, and Night keys use the device calendar start of day as YYYYMMDD.
+
+No licence or regulated-industry paperwork applies. The app is a local party spinner with no wagers, no real-money play, and no medical or financial service.
