@@ -111,6 +111,23 @@ final class FeltVaultTests: XCTestCase {
         XCTAssertEqual(relaunched.felt.slices.map(\.name), ["Marlo", "Vesper"])
     }
 
+    #if targetEnvironment(simulator)
+    @MainActor
+    func test_simulatorSeedWritesOnce() async {
+        let vault = makeVault()
+        let store = FeltStore(vault: vault, calendar: calendar)
+        await store.seedDemoIfNeeded()
+        await store.seedDemoIfNeeded()
+        XCTAssertEqual(store.felt.slices.map(\.name), ["Marlo", "Vesper", "Nix", "Calico"])
+        XCTAssertEqual(store.felt.packs.map(\.title), ["Sawdust room"])
+        XCTAssertEqual(store.felt.nailedMask, PieMask.bit(0))
+        XCTAssertEqual(store.felt.nights.first?.key.rawValue, 20260502)
+        XCTAssertEqual(store.felt.nights.first?.lands.map(\.name), ["Marlo"])
+        XCTAssertTrue(store.felt.onboardingComplete)
+        XCTAssertTrue(defaults.bool(forKey: FeltKey.demo))
+    }
+    #endif
+
     @MainActor
     func test_storeEmptyPopulatedInvalidLand() async {
         let store = FeltStore(vault: makeVault(), calendar: calendar)

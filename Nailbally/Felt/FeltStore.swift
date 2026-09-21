@@ -108,7 +108,7 @@ final class FeltStore {
     func seedDemoIfNeeded() async {
         #if targetEnvironment(simulator)
         if await vault.hasDemoSeed() { return }
-        felt = FeltSeed.felt()
+        felt = FeltSeed.nighted()
         do {
             try await vault.save(felt)
             await vault.markDemoSeed()

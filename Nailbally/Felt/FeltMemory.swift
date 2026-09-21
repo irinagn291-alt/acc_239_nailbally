@@ -3,10 +3,11 @@ import Foundation
 /// Role: Felt. In-process vault for fixtures and previews. Views never persist through this.
 actor FeltMemory: FeltPersisting {
     private var felt: Felt
-    private var demo = true
+    private var demo: Bool
 
-    init(felt: Felt = .empty) {
+    init(felt: Felt = .empty, demoSeeded: Bool = false) {
         self.felt = felt
+        self.demo = demoSeeded
     }
 
     func load() async -> (felt: Felt, warning: FeltWarning?) {

@@ -4,8 +4,9 @@ import Foundation
 enum FeltFixture {
     @MainActor
     static func populated() -> FeltStore {
-        let store = FeltStore(vault: FeltMemory())
-        store.install(nightedSeed())
+        let felt = nightedSeed()
+        let store = FeltStore(vault: FeltMemory(felt: felt, demoSeeded: true))
+        store.install(felt)
         return store
     }
 
@@ -18,16 +19,7 @@ enum FeltFixture {
 
     @MainActor
     static func nightedSeed() -> Felt {
-        var felt = FeltSeed.felt()
-        felt.nailedMask = PieMask.bit(0)
-        let first = felt.slices[0]
-        felt.nights = [
-            Night(
-                key: NightKey(rawValue: 20260502),
-                lands: [Land(sliceID: first.id, name: first.name, bit: first.bit)]
-            )
-        ]
-        return felt
+        FeltSeed.nighted()
     }
 }
 

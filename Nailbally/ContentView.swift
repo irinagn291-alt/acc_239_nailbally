@@ -3,16 +3,16 @@ import SwiftUI
 /// Role: Felt. Felt-locked chrome. The wheel never leaves; nights and booth occupy a sheet or the detail column.
 @MainActor
 struct ContentView: View {
-    let store: FeltStore
+    @State private var store: FeltStore
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     @State private var pane: MidwayPane = .night
 
     init(store: FeltStore) {
-        self.store = store
+        _store = State(initialValue: store)
     }
 
     init() {
-        self.init(store: FeltFixture.populated())
+        _store = State(initialValue: FeltBooth.live())
     }
 
     var body: some View {
@@ -45,5 +45,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(store: FeltFixture.populated())
 }

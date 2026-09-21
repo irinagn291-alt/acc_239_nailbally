@@ -20,4 +20,17 @@ enum FeltSeed {
             onboardingComplete: true
         )
     }
+
+    static func nighted() -> Felt {
+        var felt = felt()
+        felt.nailedMask = PieMask.bit(0)
+        let first = felt.slices[0]
+        felt.nights = [
+            Night(
+                key: NightKey(rawValue: 20260502),
+                lands: [Land(sliceID: first.id, name: first.name, bit: first.bit)]
+            )
+        ]
+        return felt
+    }
 }
